@@ -1,5 +1,5 @@
 import pytest
-from calculator.calculator import Calculator
+from calculator import Calculator
 
 def test_validator_default() -> None:
     calc = Calculator()
